@@ -1,4 +1,4 @@
-name deplay
+name: deplay
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
       - feature/push_images_to_ecr
 
-env
+env:
   AWS_REGION: ap-northeast-1
 
 jobs:
